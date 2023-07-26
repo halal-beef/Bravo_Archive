@@ -1,5 +1,4 @@
-<img align="right" src="https://github.com/halal-beef/res/blob/main/htc_desire_450x450x32_fill.png
-" width="350" alt="HTC Desire">
+<img align="right" src="https://github.com/halal-beef/res/blob/main/htc_desire_450x450x32_fill.png" width="350" alt="HTC Desire">
 
 # Bravo Archive
 
