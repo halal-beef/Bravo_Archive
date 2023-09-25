@@ -41,4 +41,4 @@
 
 - Open CMD as Administrator
 - Do the following command ```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\0BB40FFF0100" /v "SkipBOSDescriptorQuery" /t REG_BINARY /d "01000000" /f``` this will skip the BOS Descriptor requirement for fastboot fixing the connection
-- Do the following command ```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\0BB409C40100" /v "SkipBOSDescriptorQuery" /t REG_BINARY /d "01000000" /f``` this will skip the BOS Descriptor requirement for HBOOT fixing the connection
+- Do the following command ```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\0BB40C940100" /v "SkipBOSDescriptorQuery" /t REG_BINARY /d "01000000" /f``` this will skip the BOS Descriptor requirement for HBOOT fixing the connection
