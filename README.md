@@ -36,3 +36,9 @@
 
 - When this happens there is a 40% chance that your radio is bricked and as of right now I don't think there is a way to unbrick the radio
 - 60% of the time tho, the phone is just simply too hot and radio will refuse to flash, make sure you take out the battery and put the phone on a cool surface to cool down (preferrably metal), Please note you probably shouldn't put your phone into a fridge or a freezer
+
+### Fixing Fastboot USB and HBOOT USB in Windows
+
+- Open CMD as Administrator
+- Do the following command ```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\0BB40FFF0100" /v "SkipBOSDescriptorQuery" /t REG_BINARY /d "01000000" /f``` this will skip the BOS Descriptor requirement for fastboot fixing the connection
+- Do the following command ```reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\0BB409C40100" /v "SkipBOSDescriptorQuery" /t REG_BINARY /d "01000000" /f``` this will skip the BOS Descriptor requirement for HBOOT fixing the connection
