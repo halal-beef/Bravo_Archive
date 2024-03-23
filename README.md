@@ -8,6 +8,7 @@
 - 4EXT_PB99IMG.zip ```4EXT Touch Recovery as an RUU zip```
 - PB99IMG.zip ```Android Gingerbread RUU zip```
 - PB99IMG_downgrade.zip ```RUU Zip to help revert HBOOT versions / Help restoring the stock partition table```
+- openrecovery-twrp-2.7.1.0-bravo.zip ```"Flashable" TWRP Zip, never worked for me cause bravos recovery is too small, i just used the image inside the zip and fastboot booted it```
 
 ## Guides
 
